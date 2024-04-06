@@ -4,7 +4,6 @@ import BlogComponent from "@components/BlogComponent";
 import Drops from "@components/Drops";
 import ServicesComponent from "@components/ServicesComponent";
 import WhyChooseUsComponent from "@components/WhyChooseUsComponent";
-import { Autoplay, EffectCreative } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const HalfSlider = () => {
@@ -15,7 +14,7 @@ const HalfSlider = () => {
         <div className="bg_overlay">
           {/* Overlay Slider */}
           <div className="overlay_slider">
-            <Swiper
+            {/* <Swiper
               loop={true}
               effect={"creative"}
               autoplay={{
@@ -51,7 +50,7 @@ const HalfSlider = () => {
                   <div className="main_image" data-bg-img="img/drops/5.jpg" />
                 </SwiperSlide>
               </div>
-            </Swiper>
+            </Swiper> */}
           </div>
           {/* !Overlay Slider */}
         </div>
